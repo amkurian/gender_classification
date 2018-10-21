@@ -1,6 +1,7 @@
 from sklearn import tree
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
 
 # [height, weight, shoe_size]
 X = [[181, 80, 44], [177, 70, 43], [160, 60, 38], [154, 54, 37], [166, 65, 40],
@@ -29,5 +30,12 @@ s_clf = SVC()
 s_clf.fit(X,Y)
 s_prediction = s_clf.predict(test_data)
 print s_prediction
+
+
+#LogisticRegression
+l_clf = LogisticRegression()
+l_clf.fit(X,Y)
+l_prediction = l_clf.predict(test_data)
+print l_prediction
 
 
