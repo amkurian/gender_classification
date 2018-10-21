@@ -5,9 +5,12 @@ The library used is sklearn or scikit learn
 
 Used four different classifiers for this purpose:
 
-Decision Tree Classifier
-Random Forest Classifier
-Logistic Regression
-SVC (Support Vector Classifier)
+1.Decision Tree Classifier
+
+2.Random Forest Classifier
+
+3.Logistic Regression
+
+4.SVC (Support Vector Classifier)
 
 Also the most accurate of prediction is also calculated using package numpy
